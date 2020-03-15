@@ -1,122 +1,327 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: #F3F3F3;
-  color: #000000;
-  font-family: sans-serif;
-  font-size: 16px;
-}
-
-nav {
   background-color: #000000;
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: white;
+  letter-spacing: .5px;
+  transform: scale(1.05, 1);
+}
+
+.mainTitle{
+  font-size: 1.3em;
+  text-align: left;
+  padding: 15% 0 5% 10%;
+  font-weight: bold;
+}
+
+.routeEastbound
+{
+padding: 10%;
+
+}
+
+.eastboundTitle {
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.busNumber1{
+  margin: 10% 5% 10% 0;
+  padding: 6.5% 4.5%;
+  font-size: 36px;
+  font-weight: bold;
+  background: #55AC78;
+  border-radius: 10px;
   float: left;
-  position: fixed;
-  width: 100%;
 }
 
-.logo {
-  margin: 20px;
-  width: 100px;
+
+.randolphHarbor {
+  padding: 13% 0 18% 10%;
+  border-bottom: 1px solid #515151;
 }
 
-.large-pic {
-  width: 100%;
+.randolphHarbor h2 {
+  font-size: 16px;
+  padding-bottom: 2.5%;
+  font-weight: bold;
 }
 
-.medium-pic {
-  width: 70%;
+.randolphHarbor h3 {
+  font-size: 14px;
+  font-weight: 100;
 }
 
-.left, .right {
+.busNumber2{
+  margin: 7% 5% 10% 0;
+  padding: 8.5% 3.5%;
+  font-size: 28px;
+  font-weight: bold;
+  background: #3A88C0;
   float: left;
-  width: 50%;
+  text-align: left;
+  border-radius: 10px;
+  clear: both;
+}
+
+
+.navyPier {
+  padding: 12% 0 12% 10%;
 
 }
 
-.right {
-  float: right;
-  text-decoration: none;
-}
-
-a {
-  text-decoration: none;
-
-
-}
-
-/* unvisited link */
-a:link {
-  color: #FFFFFF;
-}
-
-/* visited link */
-a:visited {
-  color: #FFFFFF;
-}
-
-/* mouse over link */
-a:hover {
-  color: gray;
-}
-
-/* selected link */
-a:active {
-  color: #FFFFFF;
+.navyPier h2 {
+  font-size: 16px;
+  padding-bottom: 2.5%;
   font-weight: bold;
 }
 
-a[tabindex]:focus {
-    color:blue;
-    outline: none;
+.navyPier h3 {
+  font-size: 14px;
+  font-weight: 100;
 }
 
-ul {
-  list-style-type: none;
-  float: right;
+
+.northboundTitle {
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 10% 0 0 10%;
 }
 
-li {
-  float: right;
-  padding: 30px;
-}
-
-article {
-  padding-top: 100px;
-}
-
-.container {
-  margin: 0 auto;
-  width: 50%;
-}
-
-h1 {
-  font-size: 250%;
+.busNumber3{
+  margin: 7% 5% 10% 10%;
+  padding: 7% 3%;
+  font-size: 28px;
   font-weight: bold;
-  line-height: 2;
+  background: #E38A22;
+  float: left;
+  text-align: left;
+  border-radius: 10px;
+  clear: both;
 }
 
-h3 {
-  font-size: 150%;
-  line-height: 1.4;
-  font-weight: 200;
-  color: #5B5B5B;
-  font-style: italic;
+
+.devonClark {
+  padding: 10% 0 12% 10%;
+
 }
 
-figcaption {
-  font-style: italic;
-  font-size: 80%;
-  line-height: 3;
-}
-
-p {
-  line-height: 1.7
-}
-
-.author {
-  line-height: 4;
+.devonClark h2 {
+  font-size: 16px;
+  padding-bottom: 2.5%;
   font-weight: bold;
 }
 
-.a {
-  margin-bottom: 100px;
+.devonClark h3 {
+  font-size: 14px;
+  font-weight: 100;
 }
-Change from clone
+
+
+.southboundTitle {
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  clear: both;
+  padding: 10% 10% 0 10%
+}
+
+.busNumber4{
+  margin: 10% 5% 10% 10%;
+  padding: 7% 3%;
+  font-size: 28px;
+  font-weight: bold;
+  background: #DD4E71;
+  border-radius: 10px;
+  float: left;
+
+}
+
+
+.stonyIsland {
+  padding: 13% 10% 16% 10%;
+  margin: 0 10% 0 10%;
+  border-bottom: 1px solid #515151;
+
+}
+
+.stonyIsland h2 {
+  font-size: 16px;
+  padding-bottom: 2.5%;
+  font-weight: bold;
+}
+
+.stonyIsland h3 {
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.busNumber5{
+  margin: 5% 5% 10% 10%;
+  padding: 7% 3%;
+  font-size: 28px;
+  font-weight: bold;
+  background: #3A88C0;
+  float: left;
+  text-align: left;
+  border-radius: 10px;
+  clear: both;
+}
+
+
+.navyPier {
+  padding: 11% 0 12% 10%;
+
+}
+
+.navyPier h2 {
+  font-size: 16px;
+  padding-bottom: 2.5%;
+  font-weight: bold;
+}
+
+.navyPier h3 {
+  font-size: 14px;
+  font-weight: 100;
+}
+
+
+.rerouteTitle {
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 15% 0 0 10%;
+  text-align: left;
+}
+
+.busNumber6{
+  margin: 7% 5% 10% 10%;
+  padding: 6.5% 5.5%;
+  font-size: 28px;
+  font-weight: bold;
+  background: #9E6BDE;
+  float: left;
+  border-radius: 10px;
+  clear: both;
+}
+
+
+.jacksonPark {
+  padding: 10% 0 12% 10%;
+
+}
+
+.jacksonPark h2 {
+  font-size: 16px;
+  padding-bottom: 2.5%;
+  font-weight: bold;
+}
+
+.jacksonPark h3 {
+  font-size: 14px;
+  font-weight: 100;
+}
+
+
+.outOfServiceTitle {
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  clear: both;
+  padding: 10% 10% 0 10%
+}
+
+.busNumber7{
+  margin: 10% 5% 10% 10%;
+  padding: 7% 7%;
+  font-size: 28px;
+  font-weight: bold;
+  background: #30B900;
+  border-radius: 10px;
+  float: left;
+
+}
+
+
+.cottageGrove {
+  padding: 12% 10% 17% 10%;
+  margin: 0 10% 0 10%;
+  border-bottom: 1px solid #515151;
+
+}
+
+.cottageGrove h2 {
+  font-size: 16px;
+  padding-bottom: 2.5%;
+  font-weight: bold;
+}
+
+.cottageGrove h3 {
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.busNumber8 {
+  margin: 5% 5% 10% 10%;
+  padding: 7% 5%;
+  font-size: 28px;
+  font-weight: bold;
+  background: #E44B4B;
+  float: left;
+  text-align: left;
+  border-radius: 10px;
+  clear: both;
+}
+
+
+.madison {
+  padding: 1% 0 15% 10%;
+  border-bottom: 1px solid #515151;
+  margin: 10% 10%;
+}
+
+.madison h2 {
+  font-size: 16px;
+  padding-bottom: 2.5%;
+  font-weight: bold;
+}
+
+.madison h3 {
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.busNumber9 {
+  margin: -2% 5% 10% 10%;
+  padding: 7% 3%;
+  font-size: 28px;
+  font-weight: bold;
+  background: #2260FF;
+  float: left;
+  text-align: left;
+  border-radius: 10px;
+  clear: both;
+}
+
+
+.streetervilleTaylor {
+  padding: 0 0 12% 10%;
+
+}
+
+.streetervilleTaylor h2 {
+  font-size: 16px;
+  padding-bottom: 2.5%;
+  font-weight: bold;
+}
+
+.streetervilleTaylor h3 {
+  font-size: 14px;
+  font-weight: 100;
+}
