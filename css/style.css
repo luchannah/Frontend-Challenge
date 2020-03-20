@@ -11,317 +11,58 @@ body {
   transform: scale(1.05, 1);
 }
 
-.mainTitle{
-  font-size: 1.3em;
-  text-align: left;
-  padding: 15% 0 5% 10%;
+.mainTitle {
+  text-align: center;
   font-weight: bold;
+  padding: 12% 5% 0 5%;
 }
 
-.routeEastbound
-{
-padding: 10%;
-
-}
-
-.eastboundTitle {
-  font-weight: 900;
+.route {
+  padding: 4% 5% 4% 5%;
+  font-weight: bold;
   text-transform: uppercase;
-  letter-spacing: 1px;
 }
 
-.busNumber1{
-  margin: 10% 5% 10% 0;
-  padding: 6.5% 4.5%;
-  font-size: 36px;
+.eastbound {
+  margin: 15% 5% 15% 5%;
+}
+
+.northbound {
+  margin: 15% 5% 15% 5%;
+}
+
+.southbound {
+  margin: 15% 5% 15% 5%;
+}
+
+.reroute {
+  margin: 15% 5% 15% 5%;
+}
+
+.outOfService {
+  margin: 15% 5% 15% 5%;
+}
+
+.col1 {
+  margin: 5%;
+  padding: 25px 10px 25px 10px;
+  width: 75px;
+  height: 75px;
+  text-align: center;
   font-weight: bold;
-  background: #55AC78;
-  border-radius: 10px;
   float: left;
-}
-
-
-.randolphHarbor {
-  padding: 13% 0 18% 10%;
-  border-bottom: 1px solid #515151;
-}
-
-.randolphHarbor h2 {
-  font-size: 16px;
-  padding-bottom: 2.5%;
-  font-weight: bold;
-}
-
-.randolphHarbor h3 {
-  font-size: 14px;
-  font-weight: 100;
-}
-
-.busNumber2{
-  margin: 7% 5% 10% 0;
-  padding: 8.5% 3.5%;
-  font-size: 28px;
-  font-weight: bold;
-  background: #3A88C0;
-  float: left;
-  text-align: left;
-  border-radius: 10px;
   clear: both;
-}
-
-
-.navyPier {
-  padding: 12% 0 12% 10%;
-
-}
-
-.navyPier h2 {
-  font-size: 16px;
-  padding-bottom: 2.5%;
-  font-weight: bold;
-}
-
-.navyPier h3 {
-  font-size: 14px;
-  font-weight: 100;
-}
-
-
-.northboundTitle {
-  font-weight: 900;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  padding: 10% 0 0 10%;
-}
-
-.busNumber3{
-  margin: 7% 5% 10% 10%;
-  padding: 7% 3%;
-  font-size: 28px;
-  font-weight: bold;
-  background: #E38A22;
-  float: left;
-  text-align: left;
+  background-color: gray;
   border-radius: 10px;
-  clear: both;
 }
 
-
-.devonClark {
-  padding: 10% 0 12% 10%;
-
+.col2 {
+  padding: 7% 10% 3% 10%;
+  font-size: 18px;
+  font-weight: bold;
 }
 
-.devonClark h2 {
+.col3 {
   font-size: 16px;
-  padding-bottom: 2.5%;
-  font-weight: bold;
-}
-
-.devonClark h3 {
-  font-size: 14px;
-  font-weight: 100;
-}
-
-
-.southboundTitle {
-  font-weight: 900;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  clear: both;
-  padding: 10% 10% 0 10%
-}
-
-.busNumber4{
-  margin: 10% 5% 10% 10%;
-  padding: 7% 3%;
-  font-size: 28px;
-  font-weight: bold;
-  background: #DD4E71;
-  border-radius: 10px;
-  float: left;
-
-}
-
-
-.stonyIsland {
-  padding: 13% 10% 16% 10%;
-  margin: 0 10% 0 10%;
-  border-bottom: 1px solid #515151;
-
-}
-
-.stonyIsland h2 {
-  font-size: 16px;
-  padding-bottom: 2.5%;
-  font-weight: bold;
-}
-
-.stonyIsland h3 {
-  font-size: 14px;
-  font-weight: 100;
-}
-
-.busNumber5{
-  margin: 5% 5% 10% 10%;
-  padding: 7% 3%;
-  font-size: 28px;
-  font-weight: bold;
-  background: #3A88C0;
-  float: left;
-  text-align: left;
-  border-radius: 10px;
-  clear: both;
-}
-
-
-.navyPier {
-  padding: 11% 0 12% 10%;
-
-}
-
-.navyPier h2 {
-  font-size: 16px;
-  padding-bottom: 2.5%;
-  font-weight: bold;
-}
-
-.navyPier h3 {
-  font-size: 14px;
-  font-weight: 100;
-}
-
-
-.rerouteTitle {
-  font-weight: 900;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  padding: 15% 0 0 10%;
-  text-align: left;
-}
-
-.busNumber6{
-  margin: 7% 5% 10% 10%;
-  padding: 6.5% 5.5%;
-  font-size: 28px;
-  font-weight: bold;
-  background: #9E6BDE;
-  float: left;
-  border-radius: 10px;
-  clear: both;
-}
-
-
-.jacksonPark {
-  padding: 10% 0 12% 10%;
-
-}
-
-.jacksonPark h2 {
-  font-size: 16px;
-  padding-bottom: 2.5%;
-  font-weight: bold;
-}
-
-.jacksonPark h3 {
-  font-size: 14px;
-  font-weight: 100;
-}
-
-
-.outOfServiceTitle {
-  font-weight: 900;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  clear: both;
-  padding: 10% 10% 0 10%
-}
-
-.busNumber7{
-  margin: 10% 5% 10% 10%;
-  padding: 7% 7%;
-  font-size: 28px;
-  font-weight: bold;
-  background: #30B900;
-  border-radius: 10px;
-  float: left;
-
-}
-
-
-.cottageGrove {
-  padding: 12% 10% 17% 10%;
-  margin: 0 10% 0 10%;
-  border-bottom: 1px solid #515151;
-
-}
-
-.cottageGrove h2 {
-  font-size: 16px;
-  padding-bottom: 2.5%;
-  font-weight: bold;
-}
-
-.cottageGrove h3 {
-  font-size: 14px;
-  font-weight: 100;
-}
-
-.busNumber8 {
-  margin: 5% 5% 10% 10%;
-  padding: 7% 5%;
-  font-size: 28px;
-  font-weight: bold;
-  background: #E44B4B;
-  float: left;
-  text-align: left;
-  border-radius: 10px;
-  clear: both;
-}
-
-
-.madison {
-  padding: 1% 0 15% 10%;
-  border-bottom: 1px solid #515151;
-  margin: 10% 10%;
-}
-
-.madison h2 {
-  font-size: 16px;
-  padding-bottom: 2.5%;
-  font-weight: bold;
-}
-
-.madison h3 {
-  font-size: 14px;
-  font-weight: 100;
-}
-
-.busNumber9 {
-  margin: -2% 5% 10% 10%;
-  padding: 7% 3%;
-  font-size: 28px;
-  font-weight: bold;
-  background: #2260FF;
-  float: left;
-  text-align: left;
-  border-radius: 10px;
-  clear: both;
-}
-
-
-.streetervilleTaylor {
-  padding: 0 0 12% 10%;
-
-}
-
-.streetervilleTaylor h2 {
-  font-size: 16px;
-  padding-bottom: 2.5%;
-  font-weight: bold;
-}
-
-.streetervilleTaylor h3 {
-  font-size: 14px;
-  font-weight: 100;
+  padding-bottom: 12%;
 }
