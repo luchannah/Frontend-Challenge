@@ -3,66 +3,133 @@
 }
 
 body {
-  background-color: #000000;
-  font-family: 'Roboto';
+  background-color: #E3E3E3;
+  font-family: proxima-nova, sans-serif;
   font-size: 24px;
-  color: white;
-  letter-spacing: .5px;
-  transform: scale(1.05, 1);
+  color: black;
+}
+
+#status {
+  padding: 0;
+}
+
+.bus-stop-icon {
+  position: absolute;
+  width: 10%;
+  margin: 10% 0 10% 0;
+}
+
+#icon-1{
+  margin: 40px 10px 0 58px;
+  position: absolute;
+}
+
+#icon-2{
+  position: absolute;
+  margin: 0 10px 0 195px;
+}
+
+#icon-3{
+  margin: 85px 0 0 320px;
+}
+
+
+.map {
+position: absolute;
+width: 20%;
+margin: 25% 0 0 42%;
+align-content: center;
+}
+
+.nav {
+  position: absolute;
+  width: 10%;
+  margin-left: 88%;
+  margin-top: 50%;
+}
+
+img {
+  max-width: 100%;
+  float: left;
+  padding-bottom: 4%;
+}
+
+.arrow{
+  position: absolute;
+  width: 7%;
+  margin: 15% 0 10% 80%;
 }
 
 .mainTitle {
-  text-align: center;
+  color: white;
+  text-align: left;
   font-weight: bold;
-  padding: 12% 5% 0 5%;
+  font-size: 20px;
+  padding: 4% 0 4% 9%;
+  background-color: black;
 }
 
 .route {
-  padding: 4% 5% 4% 5%;
+  padding: 4% 5% 5% 5%;
   font-weight: bold;
   text-transform: uppercase;
+  font-size: 20px;
 }
 
 .eastbound {
-  margin: 15% 5% 15% 5%;
+  margin: 5% 5% 15% 5%;
 }
 
 .northbound {
-  margin: 15% 5% 15% 5%;
+  margin: 5% 5% 15% 5%;
 }
 
 .southbound {
-  margin: 15% 5% 15% 5%;
+  margin: 5% 5% 15% 5%;
 }
 
 .reroute {
-  margin: 15% 5% 15% 5%;
+  margin: 5% 5% 15% 5%;
 }
 
 .outOfService {
-  margin: 15% 5% 15% 5%;
+  margin: 5% 5% 10% 5%;
 }
 
 .col1 {
-  margin: 5%;
-  padding: 25px 10px 25px 10px;
+  font-size: 32px;
+  color: white;
+  margin: 9% 5% 5% 5%;
+  padding: 22px 5px 35px 5px;
   width: 75px;
   height: 75px;
   text-align: center;
   font-weight: bold;
   float: left;
   clear: both;
-  background-color: gray;
+  background-color: #F47A22;
   border-radius: 10px;
 }
 
 .col2 {
-  padding: 7% 10% 3% 10%;
+  padding: 10% 10% 2% 10%;
   font-size: 18px;
   font-weight: bold;
 }
 
 .col3 {
   font-size: 16px;
-  padding-bottom: 12%;
+  color: #6A6A6A;
+  padding-bottom: 17%;
+  margin-bottom: 5%;
+
+}
+
+.row {
+  background-color: white;
+  border-radius: 15px;
+}
+
+#footer {
+padding: 0 0 0 0;
 }
