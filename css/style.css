@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+.section {
+  width: 375px;
+}
+
 body {
   background-color: #E3E3E3;
   font-family: proxima-nova, sans-serif;
@@ -9,9 +13,20 @@ body {
   color: black;
 }
 
-#status {
-  padding: 0;
+.status {
+  position: fixed;
+  z-index: 99;
 }
+
+.footer{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  padding-bottom: 0;
+  z-index: 99;
+
+}
+
 
 .bus-stop-icon {
   position: absolute;
@@ -30,7 +45,7 @@ body {
 }
 
 #icon-3{
-  margin: 85px 0 0 320px;
+  margin: 85px 0 0 250px;
 }
 
 
@@ -130,6 +145,6 @@ img {
   border-radius: 15px;
 }
 
-#footer {
-padding: 0 0 0 0;
+.strip{
+  padding: 8%;
 }
