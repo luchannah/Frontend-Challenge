@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-.section {
+.container {
   width: 375px;
 }
 
@@ -29,9 +29,11 @@ body {
 
 
 .bus-stop-icon {
-  position: absolute;
-  width: 10%;
+  position: relative;
+  width: 40px;
   margin: 10% 0 10% 0;
+  position: absolute;
+  border: 3px solid green;
 }
 
 #icon-1{
