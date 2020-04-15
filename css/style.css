@@ -8,6 +8,7 @@
 }
 
 body {
+  box-sizing: border-box;
   background-color: #E3E3E3;
   font-family: proxima-nova, sans-serif;
   font-size: 24px;
@@ -38,13 +39,16 @@ body {
 .bus-stop-icon {
   position: relative;
   width: 30px;
-  margin: 40px 0 0 0;
+  top: 40px;
   position: absolute;
 }
 
 #icon-1{
-  margin: 40px 10px 0 58px;
+  top: 40px;
+  right: 10px;
+  left: 58px;
   position: absolute;
+  border
 }
 
 #icon-2{
@@ -53,23 +57,20 @@ body {
   margin: 0;
 }
 
-#icon-3{
-  margin: 85px 0 0 250px;
-}
-
 
 .location {
 position: absolute;
 width: 70px;
-margin: 95px 0 0 165px;
+top: 95px;
+left: 165px;
 align-content: center;
 }
 
 .nav {
   position: absolute;
   width: 40px;
-  margin-left: 325px;
-  margin-top: 185px;
+  left: 325px;
+  top: 185px;
 }
 
 img {
@@ -81,7 +82,8 @@ img {
 .arrow{
   position: absolute;
   width: 30px;
-  margin: 52px 0 0 300px;
+  top: 52px;
+  left: 300px;
 }
 
 .mainTitle {
